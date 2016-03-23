@@ -18,8 +18,8 @@ h1 {
 p.title1, p.title2, p.title3 {
     position: relative;
     float: right;
-    border-left: 2px solid black;
-    border-bottom: 2px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
     font-size: 1.5em;
     margin:0;
     width: auto;
@@ -34,7 +34,7 @@ p.text {
 div.itens {
     position: relative;
     background-color: #adadad;
-    border:2px solid black;
+    border:1px solid black;
     margin-left: 20px;
     margin-bottom: 20px;
     padding: -4px 10px 10px 10px;
