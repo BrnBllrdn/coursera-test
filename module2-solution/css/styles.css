@@ -1,0 +1,91 @@
+/********** Base styles **********/
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+
+
+}
+
+p.title1, p.title2, p.title3 {
+    position: relative;
+    float: right;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    font-size: 1.5em;
+    margin:0;
+    width: auto;
+}
+p.text {
+    padding: 20px 10px 10px 10px;
+    text-indent: 50px;
+    text-align: justify;
+
+}
+
+div.itens {
+    position: relative;
+    background-color: #adadad;
+    border:1px solid black;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: -4px 10px 10px 10px;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+
+
+p.title1 {background-color: #d9534f;}
+p.title2 {background-color: #f6b319;}
+p.title3 {background-color: #4cae4c;}
+
+
+/* Responsive Framework. */
+.row {
+    width: 100%;
+}
+
+/********** Desktop **********/
+
+@media (min-width: 992px) {
+    .box1, .box2, .box3 {
+        display: inline-block;
+        float: left;
+        width: 33%;
+    }
+}
+
+/********** Tablet **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    .box1, .box2, .box3 {
+        display: inline-block;
+        float: left;
+    }
+
+    .box1, .box2 {
+        width: 49.5%
+    }
+    .box3{
+        width: 100%;
+    }
+}
+
+/********** Mobile **********/
+@media (max-width: 767px) {
+    .box1, .box2, .box3 {
+        display: inline-block;
+        float: left;
+        width: 100%;
+    }
+
+}
+
