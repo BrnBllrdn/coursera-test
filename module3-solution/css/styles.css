@@ -94,9 +94,14 @@ body {
 
 .menu-section p {
     text-indent: 3em;
-    padding: 15px;
+    padding: 0px;
     text-align: justify;
-    margin-bottom: .5em;
+    margin-bottom: 10px;
+}
+
+.back-to-top {
+    margin-bottom: 15px;
+
 }
 
 
