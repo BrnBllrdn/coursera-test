@@ -1,12 +1,16 @@
 body {
     font-family: 'Alegreya', serif;
-    background-color:#949494;
+    background: #949494; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#1d283a, #7eb3ab); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#1d283a#7eb3ab); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#1d283a, #7eb3ab); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#1d283a, #7eb3ab); /* Standard syntax */
 }
 
 /* navbar */
 
 .navbar {
-    background-color: #330066;
+    background-color: #1b3456;
 }
 
 .navbar-header {
@@ -69,10 +73,12 @@ body {
 }
 
 .menu-section {
-    height:700px;
-    background-color: #b2b2b2;
-    color: #ffffff;
+    min-height: 700px;
+    background-color: #e6e3d8;
+    font-size: 1.4em;
+    font-weight: 200;
     border-radius: 25px;
+    box-shadow: 0 10px 6px -6px #777;
     padding-top: 15px;
     margin-bottom: 15px;
     overflow: hidden;
@@ -87,9 +93,10 @@ body {
 }
 
 .menu-section p {
-    text-indent: 15px;
+    text-indent: 3em;
     padding: 15px;
     text-align: justify;
+    margin-bottom: .5em;
 }
 
 
